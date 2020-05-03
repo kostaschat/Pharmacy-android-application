@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="background">#D4F1EF</color>
+    <color name="background1">#197B7E</color>
+    <color name="background2">#ABEEE8</color>
+    <color name="odhgies">#1799AC</color>
+    <color name="location">#F0F0F0</color>
+    <color name="apostash">#C3C9C6</color>
+</resources>

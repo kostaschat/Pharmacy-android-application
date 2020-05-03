@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="8dp"/>
+
+
+        <TextView
+            android:id="@+id/leitourgia"
+            android:background="@drawable/button_leitourgia"
+            android:layout_width="77dp"
+            android:layout_height="25dp"
+            android:layout_alignEnd="@+id/textViewName"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:textAlignment="center"
+            android:textSize="12dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/apostash"
+            android:layout_width="77dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/leitourgia"
+            android:layout_alignEnd="@+id/textViewName"
+            android:layout_marginTop="0dp"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:background="@drawable/textview_rounded"
+            android:layout_marginEnd="0dp"
+            android:text="Χλμ" />
+
+
+    </RelativeLayout>
+
+
+
+      <TextView
+          android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+          android:id="@+id/textViewNomos"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingLeft="7dp"
+          android:minHeight="32dp"
+          android:textAlignment="textStart"
+          android:textStyle="bold"/>
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:id="@+id/textViewWrario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="7dp"
+        android:minHeight="42dp"
+        android:textAlignment="textStart"
+        android:textStyle="bold"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/textViewThlefono"
+            android:layout_width="145dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/button_bg_rounded_corners"
+            android:text="Τηλεφωνο"
+            android:textColor="#DFF5F3F3"
+            android:drawableLeft="@android:drawable/ic_menu_call"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/directions"
+            android:layout_width="145dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/button_lc_rounded_corners"
+            android:drawableLeft="@android:drawable/ic_menu_directions"
+            android:text="Οδηγιες"
+            android:textAlignment="textStart"
+            android:textColor="#DFF5F3F3"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
+
